@@ -5,5 +5,5 @@ jobs:
   my-runner:
     runs-on: self-hosted
     steps:
-    - name: dir
-      run: echo hello
+    - name: date
+      run: date /t
