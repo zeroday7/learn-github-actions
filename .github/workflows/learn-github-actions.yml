@@ -5,5 +5,7 @@ jobs:
   my-runner:
     runs-on: self-hosted
     steps:
-    - name: date
-      run: date /t
+    - name: create file
+      run: echo hello > a.txt
+    - name: view file
+      run: type a.txt
